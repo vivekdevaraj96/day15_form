@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th{
+            border:2px solid red;
+        }
+        td{
+            border:2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <label for>First Name</label><br>
+        <input type="text" placeholder="FirstName"><br>
+        <label for>Last Name</label><br>
+        <input type="text" placeholder="LastName"><br>
+        <label for>Address</label><br>
+        <input type="text" placeholder="Address"><br>
+        <label for>Pincode</label><br>
+        <input type="number" placeholder="Pincode" maxlength="6"><br><br>
+        <label for>Gender</label><br>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Female">Female<br><br>
+        <label for>Food choice</label><br>
+        <input type="checkbox" name="food" value="Briyani">Briyani
+        <input type="checkbox" name="food" value="Fried rice">Fried rice
+        <input type="checkbox" name="food" value="Noodles">Noodles
+        <input type="checkbox" name="food" value="Parotta">Parotta
+        <input type="checkbox" name="food" value="Chappathi">Chappathi<br>
+        <label for>State</label><br>
+        <input type="text" placeholder="State"><br>
+        <label for>Country</label><br>
+        <input type="text" placeholder="Country"><br>
+        <Button type="submit">Submit</Button>
+    </form>
+
+    <div>
+        <table>
+        <thead><tr><th>First Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>Pincode</th>
+            <th>Gender</th>
+            <th>Food Choice</th>
+            <th>State</th>
+            <th>Country</th>
+        </tr>
+        </thead>
+        <tbody class="tbody">
+            
+        </tbody>
+
+
+        </table>
+
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
